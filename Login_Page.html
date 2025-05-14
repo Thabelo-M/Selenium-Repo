@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="loginstyle.css">
+<script src="logscript.js" defer></script>
+</head>
+<body id="login">
+
+  <!-- Popup Modal -->
+  <div id="login-popup" class="popup">
+    <div class="popup-content">
+      <p id="login-popup-message"></p>
+      <button id="close-popup">Close</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="buggy.jpg" alt="Logo" width="100">
+    <h2>Please log in to access your account</h2>
+    <p>Don't have an account? <a href="Sign_Up_Page.html">Sign up here</a></p><br>
+    
+    <form id="loginForm">
+      <label for="email">Email:</label>
+      <input type="email" class="email" placeholder="Email Address" required>
+
+      <label for="password">Password:</label>
+      <input type="password" class="password" placeholder="Enter Password" required>
+
+      <button type="submit" id="login-btn">Log In</button>
+    </form>
+
+    <p>Don't remember your password? <a href="#">Press here to reset</a></p> 
+  </div>
+
+</body>
+</html>
