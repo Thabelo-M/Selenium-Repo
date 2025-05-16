@@ -1,0 +1,5 @@
+2025-05-15 12:37:53,870 - INFO - Opening file: C:\Users\ThabeloMuthuvhukuma\OneDrive - Praesignis\Desktop\Selenium Training\Selenium-Repo\Login_Page.html
+2025-05-15 12:37:53,919 - INFO - Enter email and password
+2025-05-15 12:37:54,883 - INFO - Screenshot saved before popup appears
+2025-05-15 12:37:54,995 - INFO - Popup message: You have successfully logged in!
+2025-05-15 12:37:55,005 - INFO - Login popup test passed on: chrome
